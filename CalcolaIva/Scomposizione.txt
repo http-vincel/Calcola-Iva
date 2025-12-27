@@ -1,0 +1,12 @@
+int importo = 0;
+    int iva = 0;
+    
+    cout<<"Inserisci il tuo importo";
+    cin>>importo;
+    
+    cout<<"Inserisci iva da pagare";
+    cin>>iva;
+    
+    int controllo = importo * iva / 100;
+    cout<<"Controllo Iva: "<<controllo<<endl;
+    cout<<"Totale con Iva: "<<importo + controllo<<endl;
